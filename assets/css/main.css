@@ -298,7 +298,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #18bfef !important;
+			color: #800322 !important;
 		}
 
 	strong, b {
@@ -2215,8 +2215,8 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			box-shadow: inset 0 0 0 2px #18bfef;
-			color: #18bfef !important;
+			box-shadow: inset 0 0 0 2px #800322;
+			color: #800322 !important;
 		}
 
 		input[type="submit"].primary,
@@ -2234,7 +2234,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #18bfef;
+				background-color: #800322;
 			}
 
 /* Form */
@@ -2491,7 +2491,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #18bfef;
+			border-color: #800322;
 		}
 
 	select {
@@ -2526,7 +2526,7 @@ input, select, textarea {
 
 	input[type="checkbox"]:focus + label:before,
 	input[type="radio"]:focus + label:before {
-		border-color: #18bfef;
+		border-color: #800322;
 	}
 
 	::-webkit-input-placeholder {
@@ -2890,7 +2890,7 @@ input, select, textarea {
 	}
 
 	ul.icons li a.icon:hover:before {
-		color: #18bfef;
+		color: #800322;
 	}
 
 	ul.icons.alt li .icon:before {
@@ -2898,7 +2898,7 @@ input, select, textarea {
 	}
 
 	ul.icons.alt li a.icon:hover:before {
-		box-shadow: inset 0 0 0 2px #18bfef;
+		box-shadow: inset 0 0 0 2px #800322;
 	}
 
 /* Section/Article */
@@ -3197,14 +3197,14 @@ input, select, textarea {
 	}
 
 		.pagination a:hover {
-			color: #18bfef !important;
-			border-color: #18bfef;
+			color: #800322 !important;
+			border-color: #800322;
 			z-index: 1;
 		}
 
 			.pagination a:hover + a,
 			.pagination a:hover + span {
-				border-left-color: #18bfef;
+				border-left-color: #800322;
 			}
 
 		.pagination a.active {
@@ -3324,7 +3324,7 @@ input, select, textarea {
 
 			#intro a:hover {
 				border-bottom-color: transparent;
-				color: #18bfef !important;
+				color: #800322 !important;
 			}
 
 		#intro strong, #intro b {
@@ -3369,8 +3369,8 @@ input, select, textarea {
 			#intro input[type="button"]:hover,
 			#intro button:hover,
 			#intro .button:hover {
-				box-shadow: inset 0 0 0 2px #18bfef;
-				color: #18bfef !important;
+				box-shadow: inset 0 0 0 2px #800322;
+				color: #800322 !important;
 			}
 
 			#intro input[type="submit"].primary,
@@ -3388,7 +3388,7 @@ input, select, textarea {
 				#intro input[type="button"].primary:hover,
 				#intro button.primary:hover,
 				#intro .button.primary:hover {
-					background-color: #18bfef;
+					background-color: #800322;
 				}
 
 		#intro h1 {
@@ -3539,7 +3539,7 @@ input, select, textarea {
 
 			#header a:hover {
 				border-bottom-color: transparent;
-				color: #18bfef !important;
+				color: #800322 !important;
 			}
 
 		#header strong, #header b {
@@ -3583,8 +3583,8 @@ input, select, textarea {
 		}
 
 			#header .logo:hover {
-				border-color: #18bfef !important;
-				color: #18bfef !important;
+				border-color: #800322 !important;
+				color: #800322 !important;
 			}
 
 		@media screen and (max-width: 980px) {
@@ -3609,6 +3609,16 @@ input, select, textarea {
 
 		}
 
+/* Content */
+	#content {
+		background-image: url('../../images/body.png');
+		/*background-size: cover; !* This will make the image cover the entire div *!*/
+		background-position: center; /* This will center the image in the div */
+		background-repeat: no-repeat; /* This will make the image not repeat */
+		padding: 4rem 8rem; /* Add some padding so the content isn't right up against the edge of the image */
+
+	}
+
 /* Nav */
 
 	#nav {
@@ -3621,7 +3631,6 @@ input, select, textarea {
 		-webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
 		-ms-transition: -ms-transform 1s ease, opacity 1s ease;
 		transition: transform 1s ease, opacity 1s ease;
-		background: rgba(255, 255, 255, 0.175);
 		height: 4rem;
 		line-height: 4rem;
 		margin: 0 auto 0 auto;
@@ -3638,7 +3647,7 @@ input, select, textarea {
 		}
 
 		#nav ul.icons li a.icon:hover:before {
-			color: #18bfef;
+			color: #800322;
 		}
 
 		#nav ul.icons.alt li .icon:before {
@@ -3646,7 +3655,7 @@ input, select, textarea {
 		}
 
 		#nav ul.icons.alt li a.icon:hover:before {
-			box-shadow: inset 0 0 0 2px #18bfef;
+			box-shadow: inset 0 0 0 2px #800322;
 		}
 
 		#nav input, #nav select, #nav textarea {
@@ -3654,13 +3663,13 @@ input, select, textarea {
 		}
 
 		#nav a {
-			color: #ffffff;
+			color: #800322;
 			border-bottom-color: rgba(255, 255, 255, 0.5);
 		}
 
 			#nav a:hover {
 				border-bottom-color: transparent;
-				color: #18bfef !important;
+				color: #800322 !important;
 			}
 
 		#nav strong, #nav b {
@@ -3723,20 +3732,20 @@ input, select, textarea {
 				}
 
 					#nav ul.links li a:hover {
-						color: inherit !important;
+						/*color: inherit !important;*/
 						background-color: rgba(255, 255, 255, 0.1);
 					}
 
 				#nav ul.links li.active {
-					background-color: #ffffff;
+					background-color: transparent;
 				}
 
 					#nav ul.links li.active a {
-						color: #1e252d;
+						color: #800322;
 					}
 
 						#nav ul.links li.active a:hover {
-							color: #18bfef !important;
+							color: #800322 !important;
 						}
 
 		#nav ul.icons {
@@ -3762,7 +3771,7 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		background-color: #ffffff;
+		background-color: transparent;
 		position: relative;
 		margin: 0 auto;
 		width: calc(100% - 25rem);
@@ -3785,7 +3794,7 @@ input, select, textarea {
 		}
 
 		#main > .post {
-			padding: 8rem 8rem 6rem 8rem ;
+			padding: 4rem 8rem ;
 		}
 
 			#main > .post header.major > .date {
@@ -3980,7 +3989,7 @@ input, select, textarea {
 
 			#footer a:hover {
 				border-bottom-color: transparent;
-				color: #18bfef !important;
+				color: #800322 !important;
 			}
 
 		#footer strong, #footer b {
@@ -4023,8 +4032,8 @@ input, select, textarea {
 			#footer input[type="button"]:hover,
 			#footer button:hover,
 			#footer .button:hover {
-				box-shadow: inset 0 0 0 2px #18bfef;
-				color: #18bfef !important;
+				box-shadow: inset 0 0 0 2px #800322;
+				color: #800322 !important;
 			}
 
 			#footer input[type="submit"].primary,
@@ -4042,7 +4051,7 @@ input, select, textarea {
 				#footer input[type="button"].primary:hover,
 				#footer button.primary:hover,
 				#footer .button.primary:hover {
-					background-color: #18bfef;
+					background-color: #800322;
 				}
 
 		#footer label {
@@ -4062,7 +4071,7 @@ input, select, textarea {
 			#footer input[type="email"]:focus,
 			#footer select:focus,
 			#footer textarea:focus {
-				border-color: #18bfef;
+				border-color: #800322;
 			}
 
 		#footer select {
@@ -4097,7 +4106,7 @@ input, select, textarea {
 
 		#footer input[type="checkbox"]:focus + label:before,
 		#footer input[type="radio"]:focus + label:before {
-			border-color: #18bfef;
+			border-color: #800322;
 		}
 
 		#footer ::-webkit-input-placeholder {
@@ -4125,7 +4134,7 @@ input, select, textarea {
 		}
 
 		#footer ul.icons li a.icon:hover:before {
-			color: #18bfef;
+			color: #800322;
 		}
 
 		#footer ul.icons.alt li .icon:before {
@@ -4133,7 +4142,7 @@ input, select, textarea {
 		}
 
 		#footer ul.icons.alt li a.icon:hover:before {
-			box-shadow: inset 0 0 0 2px #18bfef;
+			box-shadow: inset 0 0 0 2px #800322;
 		}
 
 		#footer header.major .date:before, #footer header.major .date:after {
@@ -4173,14 +4182,14 @@ input, select, textarea {
 		}
 
 			#footer .pagination a:hover {
-				color: #18bfef !important;
-				border-color: #18bfef;
+				color: #800322 !important;
+				border-color: #800322;
 				z-index: 1;
 			}
 
 				#footer .pagination a:hover + a,
 				#footer .pagination a:hover + span {
-					border-left-color: #18bfef;
+					border-left-color: #800322;
 				}
 
 			#footer .pagination a.active {
@@ -4417,7 +4426,7 @@ input, select, textarea {
 
 			#copyright a:hover {
 				border-bottom-color: transparent;
-				color: #18bfef !important;
+				color: #800322 !important;
 			}
 
 		#copyright strong, #copyright b {
